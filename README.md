@@ -1,13 +1,17 @@
 # Accident Detection System
 
-**Last Updated: *7 June 2022***
+## Motivation
+Road accidents are a major cause of injuries and fatalities worldwide. This project was built to explore how AI can assist in real-time accident detection using video feeds, providing early alerts for emergency intervention.
 
-1. Demonstration
-2. What is Accident Detection System?
-3. Prerequisites
-4. Getting Started- How to use it?
-5. Description
-6. Future Work
+---
+
+## Features
+- Real-time accident detection from dashcam videos or image frames.
+- Uses a Convolutional Neural Network (CNN) for pattern recognition.
+- Supports batch processing of video datasets.
+- Provides accuracy metrics for model evaluation.
+
+---
 
 ## 1. Demonstration
 
@@ -18,10 +22,10 @@
 An accident Detection System is designed to detect accidents via video or CCTV footage. Road accidents are a significant problem for the whole world. Many people lose their lives in road accidents. We can minimize this issue by using CCTV accident detection. This repository majorly explores how CCTV can detect these accidents with the help of Deep Learning.
 
 ## 3. Prerequisites
-
-- To use this project Python Version > 3.6 is recommended.
-- To contribute to this project, knowledge of basic python scripting, Machine Learning, and Deep Learning will help.
-
+- Python 3.8+
+- Libraries:
+  ```bash
+  pip install -r requirements.txt
 ## 4. Getting Started - How to use it?
 
 ### Clone this repository
